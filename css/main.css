@@ -1,0 +1,52 @@
+html{
+    background: url(../images/bedding.jpg) no-repeat center center fixed;
+    webkit-background-size: cover;
+    moz-background-size: cover;
+    o-background-size: cover;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bedding.jpg',     sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bedding.jpg', sizingMethod='scale');
+}
+
+h1 {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:24px;
+	font-style:normal;
+}
+
+p {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	font-style:italic;
+	font-weight:300;
+}
+
+.nav .container {
+	background-image:url(../images/background.png);
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.nav li {
+  display: inline;
+  padding-left:10px;
+  padding-right:10px;
+  font-family:Tahoma, Geneva, sans-serif;
+  font-size:20px;
+  font-weight:400;
+}
+
+.main .container {
+	background-image:url(../images/background.png);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
