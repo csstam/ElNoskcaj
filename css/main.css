@@ -43,7 +43,17 @@ li {
 }
 
 .nav .container {
-	background-image:url(../images/background.png);
+	/*background-image:url(../images/background.png);*/
+	/*background: #FFF;
+	opacity: 0.85;*/
+	/* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(255, 255, 255) transparent;
+    /* RGBa with 0.6 opacity */
+    background: rgba(255, 255, 255, 0.85);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
 	margin-top: 40px;
 	margin-left: auto;
 	margin-right: auto;
@@ -69,7 +79,14 @@ li {
 	color: #000;
 }
 .main .container {
-	background-image:url(../images/background.png);
+	//* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(255, 255, 255) transparent;
+    /* RGBa with 0.6 opacity */
+    background: rgba(255, 255, 255, 0.85);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom:40px;
