@@ -1,29 +1,33 @@
 html{
-    background: url(../images/bedding.jpg) no-repeat center center fixed;
+    background: url(../images/polishedconcrete.jpg) no-repeat center center fixed;
     webkit-background-size: cover;
     moz-background-size: cover;
     o-background-size: cover;
     background-size: cover;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bedding.jpg',     sizingMethod='scale');
     -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bedding.jpg', sizingMethod='scale');
-    font-family: alibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-family: 'Dosis', calibri, sans-serif;
 }	
 
 h1 {
 	font-size:24px;
 	font-style:normal;
+	font-weight:400;
 }
 h2 {
 	font-size:20px;
 	font-style:normal;
+	font-weight:400;
 }
 h3 {
 	font-size:18px;
 	font-style:normal;
+	font-weight:400;
 }
 h4 {
 	font-size:17px;
 	font-style:normal;
+	font-weight:400;
 }
 p {
 	font-size:16px;
@@ -42,10 +46,12 @@ li {
 	font-weight:300;
 }
 
+#note {
+	font-size:12px;
+	font-weight:300;
+}
+
 .nav .container {
-	/*background-image:url(../images/background.png);*/
-	/*background: #FFF;
-	opacity: 0.85;*/
 	/* Fallback for web browsers that doesn't support RGBa */
     background: rgb(255, 255, 255) transparent;
     /* RGBa with 0.6 opacity */
@@ -55,6 +61,7 @@ li {
     /* For IE 8*/
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
 	margin-top: 40px;
+	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 20px;
@@ -68,13 +75,16 @@ li {
   font-size:20px;
   font-weight:400;
 }
-
+#link{
+	text-decoration: none;
+	color: #000;
+}
 .nav a {
 	text-decoration: none;
 	color: #000;
 }
 
- .nav a:hover {
+.nav a:hover {
 	text-decoration: none;
 	color: #000;
 }
@@ -89,6 +99,7 @@ li {
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
 	margin-left: auto;
 	margin-right: auto;
+	width: 900px;
 	margin-bottom:40px;
 	padding-top: 10px;
 	padding-bottom: 10px;
