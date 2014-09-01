@@ -67,6 +67,8 @@ li {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: center;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
 .nav li {
   display: inline;
@@ -105,5 +107,7 @@ li {
 	padding-bottom: 10px;
 	padding-left: 20px;
 	padding-right: 20px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
 	
 }
