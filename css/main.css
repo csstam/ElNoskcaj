@@ -55,6 +55,7 @@ table tr td {
 	padding-left: 10px;
 	padding-right: 10px;
 	font-family: 'Dosis', calibri, sans-serif;
+	vertical-align: top;
 }
 
 li {
