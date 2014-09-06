@@ -6,47 +6,40 @@
 }
 
 html{
-    background: url(../images/polishedconcrete.jpg) no-repeat center center fixed;
+    background: url(../images/zigzag_bg.jpg) no-repeat center center fixed;
     webkit-background-size: cover;
     moz-background-size: cover;
     o-background-size: cover;
     background-size: cover;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bedding.jpg',     sizingMethod='scale');
-    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bedding.jpg', sizingMethod='scale');
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/zigzag_bg.jpg',     sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/zigzag_bg.jpg', sizingMethod='scale');
     font-family: 'Dosis', calibri, sans-serif;
 }	
 body {
 	font-family: 'Dosis', calibri, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 h1 {
 	font-size:24px;
-	font-style:normal;
-	font-weight:400;
 	font-family: 'Dosis', calibri, sans-serif;
 }
 h2 {
 	font-size:20px;
-	font-style:normal;
-	font-weight:400;
 	font-family: 'Dosis', calibri, sans-serif;
 }
 h3 {
 	font-size:18px;
-	font-style:normal;
-	font-weight:400;
 	font-family: 'Dosis', calibri, sans-serif;
 }
 h4 {
 	font-size:17px;
-	font-style:normal;
-	font-weight:400;
 	font-family: 'Dosis', calibri, sans-serif;
 }
 p {
 	font-size:16px;
 	font-weight:300;
-	font-family: 'Dosis', calibri, sans-serif;
 }
 
 table tr td {
@@ -54,21 +47,18 @@ table tr td {
 	font-weight:300;
 	padding-left: 10px;
 	padding-right: 10px;
-	font-family: 'Dosis', calibri, sans-serif;
 	vertical-align: top;
 }
 
 li {
 	font-size:16px;
 	font-weight:300;
-	font-family: 'Dosis', calibri, sans-serif;
 	list-style-type: none;
 }
 
-#note {
+.note {
 	font-size:12px;
 	font-weight:300;
-	font-family: 'Dosis', calibri, sans-serif;
 }
 
 .nav .container {
@@ -93,26 +83,21 @@ li {
   padding-left:10px;
   padding-right:10px;
   font-size:20px;
-  font-weight:400;
-  font-family: 'Dosis', calibri, sans-serif;
   list-style-type: none;
 
 }
-#link{
+.link{
 	text-decoration: none;
 	color: #000;
-	font-family: 'Dosis', calibri, sans-serif;
 }
 .nav a {
 	text-decoration: none;
 	color: #000;
-	font-family: 'Dosis', calibri, sans-serif;
 }
 
 .nav a:hover {
 	text-decoration: none;
 	color: #000;
-	font-family: 'Dosis', calibri, sans-serif;
 }
 .main .container {
 	//* Fallback for web browsers that doesn't support RGBa */
