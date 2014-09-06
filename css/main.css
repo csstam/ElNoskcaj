@@ -1,9 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Dosis:200);
+@import url('http://fonts.googleapis.com/css?family=Dosis:200,600');
 
-@font-face {
-	font-family: 'Dosis';
-	 src: url('http://fonts.googleapis.com/css?family=Dosis:200');
-}
 
 html{
     background: url(../images/zigzag_bg.jpg) no-repeat center center fixed;
@@ -13,52 +9,43 @@ html{
     background-size: cover;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/zigzag_bg.jpg',     sizingMethod='scale');
     -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/zigzag_bg.jpg', sizingMethod='scale');
-    font-family: 'Dosis', calibri, sans-serif;
-}	
+}
+	
 body {
 	font-family: 'Dosis', calibri, sans-serif;
-	font-weight: 400;
+	font-weight: 200;
 	font-style: normal;
 }
 
-h1 {
-	font-size:24px;
-	font-family: 'Dosis', calibri, sans-serif;
-}
-h2 {
-	font-size:20px;
-	font-family: 'Dosis', calibri, sans-serif;
-}
-h3 {
-	font-size:18px;
-	font-family: 'Dosis', calibri, sans-serif;
-}
-h4 {
-	font-size:17px;
-	font-family: 'Dosis', calibri, sans-serif;
-}
+.bold {
+	font-weight: 600;
+} 
+
 p {
 	font-size:16px;
-	font-weight:300;
 }
 
 table tr td {
 	font-size:16px;
-	font-weight:300;
+	font-weight:200;
 	padding-left: 10px;
 	padding-right: 10px;
 	vertical-align: top;
 }
 
+.mid {
+	vertical-align: middle;
+}
+
 li {
-	font-size:16px;
-	font-weight:300;
+	font-size: 16px;
 	list-style-type: none;
 }
 
 .note {
-	font-size:12px;
-	font-weight:300;
+	font-size:14px;
+	font-weight:200;
+	font-style: italic;
 }
 
 .nav .container {
